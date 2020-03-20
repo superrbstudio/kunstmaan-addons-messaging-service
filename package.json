@@ -1,0 +1,42 @@
+{
+  "name": "@superrb/kunstmaan-addons-messaging-service",
+  "version": "1.0.0",
+  "description": "Messaging service for use on Kunstmaan front end",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.superrb.com/kuma/kunstmaan-addons-messaging-service"
+  },
+  "author": "@molovo",
+  "license": "MIT",
+  "dependencies": {
+    "live-node-list": "^2.0.0-8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
+    "@babel/plugin-proposal-function-sent": "^7.8.3",
+    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/plugin-proposal-throw-expressions": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-unicorn": "^17.2.0",
+    "eslint-plugin-xo": "^1.0.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  }
+}
