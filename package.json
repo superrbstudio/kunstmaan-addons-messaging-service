@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.superrb.com/kuma/kunstmaan-addons-messaging-service"
+    "url": "https://github.com/superrbstudio/kunstmaan-addons-messaging-service"
   },
   "author": "@molovo",
   "license": "MIT",
