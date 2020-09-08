@@ -1,6 +1,6 @@
 {
   "name": "@superrb/kunstmaan-addons-messaging-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Messaging service for use on Kunstmaan front end",
   "main": "lib/index.js",
   "scripts": {
